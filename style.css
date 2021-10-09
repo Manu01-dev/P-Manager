@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    background-color: rgb(229, 237, 238);
+}
+/*--card--*/
+.card {
+    width: 40%;
+    margin: auto;
+}
+
+/*--box styles--*/
+.box {
+    width: 100%;
+    padding: 1rem;
+}
+
+/*--title--*/
+.title {
+    width: 90%;
+    margin-top: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+}
+
+.title-name {
+    text-transform: uppercase;
+    color:rgb(141, 141, 211);
+}
+
+/*--balance--*/
+balance {
+    width: 90%;
+}
+.balanceD {
+    font-size: 1.5rem;
+}
+.balanceN {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/*--income and expence--*/
+.incomeExpence {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.income-text {
+    background-color: white;
+    width:48%;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#income {
+    color: green;
+    font-size: 2rem;
+}
+#expence {
+    color: red;
+    font-size: 2rem;
+}
+
+/*--buttons--*/
+.btn {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-btn {
+    padding: 1rem;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.callIncome {
+    background-color: green;
+    opacity: 90%;
+    width: 48%;
+}
+.callIncome:hover{
+    opacity: 100%;
+}
+
+
+.callExpence {
+    background-color: red;
+    opacity: 80%;
+    width: 48%;
+}
+.callExpence:hover{
+    opacity: 100%;
+}
+
+
+/*--forms--*/
+.forms {
+    width: 90%;
+}
+.form-box {
+    width: 100%;
+}
+.input {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+}
+
+/*--form btn--*/
+.fb {
+    width: 100%;
+    background-color: rgb(161, 179, 176);
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    opacity: 80%;
+}
+.fb:hover {
+    opacity: 100%;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Manager</title>
+
+    <!--Styles-->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!--Main card-->
+    <div class="card">
+
+        <!--Title-->
+        <div class="box title"><h1 class="title-name">Personal Manager</h1></div>
+
+        <!--Balance-->
+        <div class="box balance">
+            <h3 class="balanceD">Total Balance</h3>
+            <h2 class="balanceN"></h2>
+        </div>
+
+        <!--Income and Expence-->
+        <div class=" box incomeExpence">
+            <p class="income-text">INCOME <span id="income"></span></p>
+            <p class="income-text">EXPENSE <span id="expence"></span></p>
+        </div>
+
+        <!--buttons-->
+        <div class="box btn">
+            <button class="btn-btn callIncome">ADD INCOME</button>
+            <button class="btn-btn callExpence">ADD EXPENCE</button>
+        </div>
+
+        <!--Forms-->
+        <div class="forms">
+            <form class="form-box incomeForm" style="display: none;">
+                <button class="cancel">X</button>
+                <input type="text" class="input incomeText"/>
+                <span class="erro1"></span>
+                <input type="number" class="input incomeInput"/>
+                <span class="erro2"></span>
+                <input type="submit" class="btn-btn fb incomeBtn"/>
+            </form>
+        
+            <form class="form-box expenceForm" style="display: none;">
+                <button class="cancel">X</button>
+                <input type="text" class="input expenceText"/>
+                <span class="erro3"></span>
+                <input type="number" class="input expenceInput" />
+                <span class="erro4"></span>
+                <input type="submit" class="btn-btn fb expenceBtn"/>
+            </form>
+        </div>
+
+        <!--Container-->
+        <div class="container">
+            <ul class="List"></ul>
+        </div>
+    
+        <!--Footer-->
+        <p>Made with Love by Emmanuel</p>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
